@@ -1,4 +1,4 @@
-# Task-List
+# Task-List by SEBASTIAN ROMAŃCZUK
 
 ## Functions
 -CSS
