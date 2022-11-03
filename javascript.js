@@ -9,6 +9,7 @@
         ];
         render();
     };
+    
     const addNewTask = (newTaskContent) => {
         tasks = [
             ...tasks,
@@ -16,6 +17,7 @@
         ];
         render();
     };
+
     const toggleTaskDone = (taskIndex) => {
         tasks = [
             ...tasks.slice(0, taskIndex),
@@ -24,6 +26,7 @@
         ];
         render();
     };
+
     const toggleAllTaskDone = () => {
         tasks = tasks.map((task) => ({
                 ...task,
@@ -31,10 +34,12 @@
             }));
         render();
     };
+
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
         render();
     };
+
     const renderTasks = () => {
         let tasksListHTMLConetent = "";
         for (const task of tasks) {
@@ -67,6 +72,7 @@
             });
         });
     };
+
     const resetInput = (inputElement) => {
         inputElement.value = ""
         inputElement.focus()
@@ -85,6 +91,7 @@
           Ukończ wszystkie</button>
         `;
     };
+
     const BindButtonsEvents = () => {
         const hideDoneTask = document.querySelector(".js-toggleHideDoneTasks");
         if (hideDoneTask) {
@@ -101,6 +108,7 @@
                 toggleTaskDone(taskIndex);
             });
     });
+
     const render = () => {
         renderButtons();
         renderTasks();  
@@ -108,6 +116,7 @@
         bindToggleDoneEvents();
         bindEvents(); 
     };
+
     const onFormSubmit = (event) => {
         event.preventDefault();
         const inputElement = document.querySelector(".js-newTask")
@@ -117,6 +126,7 @@
         };
         resetInput(inputElement);
     };
+
     const init = () => {
         render();
         const form = document.querySelector(".js-formadd");
