@@ -61,10 +61,6 @@
     color: rgba(0, 128, 128, 0.2);
 }
 
-.list__newTask--hidden {
-    display: none;
-}
-
 .list__newTask {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -72,6 +68,10 @@
     grid-gap: 5px; 
     border-bottom: 2px solid #ccc;
     align-items: center;
+}
+
+.list__newTask--hidden {
+    display: none;
 }
    
 .list__buttons { 
