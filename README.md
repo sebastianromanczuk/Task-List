@@ -2,7 +2,9 @@
 
 ## Functions
 -CSS
+
 -JAVASCRIPT
+
 -HTML
 
 ### URL LINK: https://sebastianromanczuk.github.io/Task-List/
