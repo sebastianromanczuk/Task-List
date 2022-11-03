@@ -7,7 +7,7 @@
 
 ![Obraz](https://i.postimg.cc/vZRbyGwW/Lista-zada.png)
 
-### description
+### description...
 
 #### The list of tasks shows that it is possible to add objects such as cooking, cleaning and enter them into the given list. You can remove them all or individually by select commands. :)
 
