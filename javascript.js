@@ -70,8 +70,8 @@
     const resetInput = (inputElement) => {
         inputElement.value = ""
         inputElement.focus()
-    }
-    const renderButtons = () => {
+    } 
+    const renderButtons = () => { 
         const actionButtons = document.querySelector(".js-buttons");
         if (tasks.length ===0) {
             actionButtons.innerHTML = "";

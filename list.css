@@ -6,7 +6,7 @@
     padding-left: 1; 
     background-color: white;
 }
- 
+
 .list__item--content--done {
     text-decoration: line-through;
 }
