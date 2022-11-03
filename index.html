@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-Lista</title>    
+    <script defer src="javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="body.css">
+</head>
+<body class="All">
+    <div class="containertext">
+        <h1 class="header1">Lista zadań</h1>
+        <section class="row-section">
+            <div class="row-section__item">
+            <h2 class="row-section__header">Dodaj nowe zadanie do tabelki</h2>
+            </div>
+            <div class="row-section__item">
+            <form autocomplete="off" class="form1 js-formadd">
+            <input class="form__input js-newTask" name="task" placeholder="Co jest do zrobienia?" autofocus>
+            <button class="form__button js-formadd">Dodaj zadanie</button>
+            </form> 
+            </div>
+        </section>
+        <section class="list1">
+            <section class="list__header">
+            <h2 class="list__headerText">Lista zadań.</h2>
+            <div class="list__actionButtons js-buttons"></div>
+            </section>
+            <div class="row-section__item">
+            <ul class="list js-tasks"></ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

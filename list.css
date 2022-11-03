@@ -1,0 +1,105 @@
+.list1 {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    padding-left: 1; 
+    background-color: white;
+}
+ 
+.list__item--content--done {
+    text-decoration: line-through;
+}
+
+.list__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 5px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+@media(max-width:767px) {
+    .list__header {
+        grid-template-columns: 1fr;
+    }
+}
+
+.list__headerText {
+    margin: 0;
+    padding: 20px;
+}
+
+.list__actionButton {
+    font-style: normal;
+    border: none;
+    color: teal;
+    background-color: white;
+    transition: 0.8s;
+}
+
+@media(max-width:767px) {
+    .list__actionButtons {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .list__actionButton {
+        padding: 10px;
+    }
+}
+
+.list__actionButton:hover {
+    color: rgba(0, 128, 128, 0.5);
+}
+
+.list__actionButton:disabled {
+    color: rgba(0, 128, 128, 0.2);
+}
+
+.list__newTask--hidden {
+    display: none;
+}
+
+.list__newTask {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px;
+    grid-gap: 5px; 
+    border-bottom: 2px solid #ccc;
+    align-items: center;
+}
+   
+.list__buttons { 
+    color: white;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border: none;
+    transition: 0.8s;
+}
+
+.list__buttons--remove {
+    background-color: red;
+    transition: 0.8s;
+}
+
+.list__buttons--done {
+    background-color: rgba(0, 128, 0, 0.733);
+}
+
+.list__buttons--remove:hover {
+    background-color: rgba(255, 62, 19, 0.898);
+}
+
+.list__buttons--done:hover {
+    background-color: rgba(0, 128, 0, 0.733);
+}
+
+.list__content--done {
+    text-decoration-line: line-through;
+}
