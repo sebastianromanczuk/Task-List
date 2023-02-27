@@ -2,9 +2,9 @@
 
 ## Technologies used:
 
-#CSS
-#JAVASCRIPT
-#HTML
+# CSS
+# JAVASCRIPT
+# HTML
 
 ### DEMO: https://sebastianromanczuk.github.io/Task-List/
 
