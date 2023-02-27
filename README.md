@@ -1,11 +1,10 @@
 # Task-List by SEBASTIAN ROMAŃCZUK
 
-## Functions
--CSS
+## Technologies used:
 
--JAVASCRIPT
-
--HTML
+#CSS
+#JAVASCRIPT
+#HTML
 
 ### DEMO: https://sebastianromanczuk.github.io/Task-List/
 
