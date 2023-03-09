@@ -1,5 +1,7 @@
 # Task-List by SEBASTIAN ROMAŃCZUK
 
+# Hello, here new tasks are added to the table, after which you can complete all or hide them. I invite you to play with the Task-List.
+
 ## Technologies used:
 
 # CSS
